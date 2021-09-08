@@ -473,3 +473,167 @@ footer{
 .owl{
     min-height: 430px;
 }
+.course-img-text-container {
+    background-color: #fff;
+    border-radius: 5px;
+}
+.about-container, .services-container, .contact-container {
+    background-color: #dfdfdf;
+}
+.course-ratings .course{
+    color: #0466a3;
+    padding-right: 8px;
+    width: 25%;
+    border-right: 1px solid #969696;
+}
+.course-ratings .faculty {
+    color: #333333;
+    padding: 0px 8px;
+    width: 50%;
+    border-right: 1px solid #969696;
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap;
+    height: 24px;
+    text-overflow: ellipsis;
+}
+.course-ratings span strong{
+    font-size: 16px;
+}
+.course-ratings .ratings{
+    display: inline-block;
+    padding-left: 3px;
+}
+.course-ratings .ratings ul li {
+    margin: 0px 1px;
+}
+.course-ratings .ratings ul li i{
+    color: #969696;
+    font-size: 14px;
+}
+.course-ratings .ratings ul li:nth-child(1) i,
+.course-ratings .ratings ul li:nth-child(2) i,
+.course-ratings .ratings ul li:nth-child(3) i{
+    color: #ffc926;
+}
+.course-img-container img {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    -webkit-transition: .3s all ease-in-out;
+    -o-transition: .3s all ease-in-out;
+    transition: .3s all ease-in-out;
+}
+.course-img-text-container:hover img {
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
+}
+.course-img-container {
+    overflow: hidden;
+}
+.title-container {
+    height: 56px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.title-container h4{
+    font-size: 20px;
+    line-height: 1.4;
+    color: #333;
+}
+.course-img-container .badge-pos{
+    position: absolute;
+    top: 20px;
+    left: 0px;
+}
+.course-img-container .badge-pos .btn {
+    border-radius: unset;
+}
+.course-img-container .badge-pos .btn span{
+    font-size: 10px;
+}
+.course-img-container .badge-pos .btn:hover{
+    color: #fff;
+}
+.duration-time {
+    font-size: 13px;
+    font-weight: 500;
+    margin-left: 5px;
+    color: #333;
+}
+.course-footer .bi{
+    font-size: 14px;
+}
+.btn-check:focus + .btn-light, .btn-light:focus {
+    box-shadow: unset;
+}
+.btn-check:checked + .btn-light:focus, .btn-check:active + .btn-light:focus, .btn-light:active:focus, .btn-light.active:focus, .show > .btn-light.dropdown-toggle:focus {
+    box-shadow: unset;
+}
+.services-img-text-container {
+    background-color: #fff;
+    border-radius: 5px;
+}
+.services-img-container img{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.services-title-container h4 {
+    font-size: 20px;
+    color: #333333;
+}
+.services-body p{
+    font-size: 14px;
+    color: #333333;
+}
+.send-message {
+    background-color: #fff;
+    padding: 30px 30px 45px 30px;
+    border-radius: 4px;
+}
+.send-message input[type="text"], .send-message input[type="password"], .send-message input[type="email"] {
+    width: 100%;
+    height: 50px;
+    border: none;
+    border-bottom-color: currentcolor;
+    border-bottom-style: none;
+    border-bottom-width: medium;
+    background-color: transparent;
+    border-bottom: 1px solid #dddddd;
+}
+.send-message .form-check-input span {
+    color: #777;;
+}
+.send-message .form-check-input:focus {
+    box-shadow: unset;
+}
+
+.send-message textarea {
+    background-color: transparent;
+    border: none;
+    border-bottom-color: currentcolor;
+    border-bottom-style: none;
+    border-bottom-width: medium;
+    border-bottom: 1px solid #dddddd;
+    width: 100%;
+    height: 150px;
+    margin-top: 40px;
+}
+.send-message textarea:focus-visible {
+    outline: unset;
+}
+.send-message input:active, .send-message input:visited, .send-message input:focus-visible {
+    outline: unset;
+}
+.contact-bg {
+    background-image: url(../../public/images/contact-b.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.forgot-container {
+    background-image: url(../../public/images/tesit-b-1.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
