@@ -478,7 +478,7 @@ footer{
     border-radius: 5px;
 }
 .about-container, .services-container, .contact-container {
-    background-color: #dfdfdf;
+    background-color: #f2f2f2;
 }
 .course-ratings .course{
     color: #0466a3;
@@ -523,7 +523,7 @@ footer{
     -o-transition: .3s all ease-in-out;
     transition: .3s all ease-in-out;
 }
-.course-img-text-container:hover img {
+.course-img-text-container:hover .course-img {
     -webkit-transform: scale(1.05);
     -ms-transform: scale(1.05);
     transform: scale(1.05);
@@ -636,4 +636,20 @@ footer{
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
+}
+.signup-container {
+    background-image: url(../../public/images/fq-1.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover 
+}
+.badge-tip{
+    width: 23px;
+    height: 23px;
+    top: -1px;
+    right: -18px;
+}
+.badge-tip img{
+    width: 23px;
+    height: 22.4px;
 }
