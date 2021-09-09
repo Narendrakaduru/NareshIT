@@ -517,12 +517,11 @@ footer{
     color: #ffc926;
 }
 .course-img-container img {
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
     -webkit-transition: .3s all ease-in-out;
     -o-transition: .3s all ease-in-out;
     transition: .3s all ease-in-out;
 }
+
 .course-img-text-container:hover .course-img {
     -webkit-transform: scale(1.05);
     -ms-transform: scale(1.05);
@@ -530,6 +529,8 @@ footer{
 }
 .course-img-container {
     overflow: hidden;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
 .title-container {
     height: 56px;
