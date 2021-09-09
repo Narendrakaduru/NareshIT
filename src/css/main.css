@@ -377,8 +377,8 @@ a:hover{
 .icon-container .text-badge {
     padding: 5px;
     border-radius: 50%;
-    width: 25px;
-    height: 25px;
+    width: 20px;
+    height: 20px;
     text-align: center;
     box-shadow: 3px 2px 9px 7px rgba(0,0,0,0.24);
     -webkit-box-shadow: 3px 2px 9px 7px rgba(0,0,0,0.24);
@@ -392,9 +392,9 @@ a:hover{
 }
 .icon-container .text-badge span {
     color: #1387cf;
-    font-size: 13px;
+    font-size: 10px;
     font-weight: 700;
-    line-height: 16px;
+    line-height: 10px;
     text-align: center;
 }
 footer{
